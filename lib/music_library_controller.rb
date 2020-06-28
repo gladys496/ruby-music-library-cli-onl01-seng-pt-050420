@@ -67,6 +67,7 @@ def list_artists
 
   def list_genres
     Genre.all.each {|genre| puts "#{genre.name}"}
+  end 
 
 def play_song
   puts "Which song number would you like to play?"
