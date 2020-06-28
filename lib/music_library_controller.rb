@@ -96,7 +96,7 @@ def call
       when "play song"
         play_song
       when "list artist"
-        list_artist
+        list_artists
       when "list genre"
         list_genre
       else
