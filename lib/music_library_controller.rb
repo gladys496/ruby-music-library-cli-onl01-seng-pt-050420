@@ -62,6 +62,7 @@ def list_songs_by_genre
 end 
 
 
+
 def play_song
   puts "Which song number would you like to play?"
   input = gets.strip.to_i
