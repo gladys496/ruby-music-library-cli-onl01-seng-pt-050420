@@ -89,14 +89,14 @@ def call
         break;
       when "list songs"
         list_songs
-      when "list artists"
-        list_artists
+      when "list artist"
+        list_artist
       when "list genres"
         list_genres
       when "play song"
         play_song
-      when "list artists"
-        list_artists
+      when "list artist"
+        list_artist
       when "list genre"
         list_genre
       else
